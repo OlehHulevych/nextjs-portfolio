@@ -7,6 +7,8 @@ import SkillPage from './components/Skills/page'
 import LangPage from './components/Languages/Page'
 import ProjectsPage from './components/Projects/page'
 import ContactPage from './components/Contacts/page'
+import {Metadata} from 'next'
+
 
 
 
