@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 100000;
+    height: 30px;
+    
+}
+
+.line{
+   
+    
+    margin-bottom: 5px;
+    display: block;
+    width: 30px;
+    background-color: white;
+    height: 3px;
+    transition: all .1s ease-in-out;
+}
+.main.open .line:nth-child(1){
+    transform: translateY(9px) rotate(45deg);
+}
+.main.open .line:nth-child(2){
+    opacity: 0;
+}
+.main.open .line:nth-child(3){
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+

@@ -1,0 +1,65 @@
+.logo h1{
+  
+   
+    border-radius: 40px;
+    font-size: 25px;
+    cursor: pointer;
+
+
+}
+
+.logo h1 span{
+    color:rgba(246, 250, 26, 1);
+}
+.header{
+    position: absolute;
+    width: 100%;
+    transition:all .5s ease-in-out;
+}
+
+.header_inner{
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+   
+    
+   
+
+}
+
+.nav{
+   
+    display: flex;
+    justify-content: center;
+    
+    
+
+    
+    
+}
+
+.nav div {
+    margin-right: 15px;
+    font-weight: 600;
+    transition: all .5s ease-out;
+    cursor: pointer;
+    
+}
+
+.nav a:hover{
+    color:rgba(246, 250, 26, 1);
+}
+
+.header.sticky{
+    position: fixed;
+    background-color: black;
+    z-index: 1000000;
+    transition: all .5s ease-in-out;
+}
+
+/* media queris */
+
+
+

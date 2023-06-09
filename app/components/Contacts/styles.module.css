@@ -1,0 +1,42 @@
+.main{
+     
+    width: 100%;
+    
+    overflow: hidden;
+    margin-top:20px;
+    background: rgb(31, 29, 29);
+    padding:20px 0;
+}
+
+.title{
+    text-align: center;
+    align-items: center;
+    font-size: 32px;
+    padding-bottom: 10px;
+    position: relative;
+    
+
+}
+
+.title:after{
+    display: block;
+    position: absolute;
+    bottom:0;
+    width: 15%;
+    height: 3px;
+    left: 43%;
+    z-index: 1;
+    content: '';
+    background-color: yellow;
+    margin-left:-5px;
+}
+
+.block{
+    margin-top: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    
+}
