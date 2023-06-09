@@ -50,7 +50,7 @@ export default function SkillItem({img, title, level, animation}:Props) {
   }, []);
   return (
     <motion.div onMouseEnter = {handleHoverStart} onMouseLeave = {handleHoverEnd} initial = {animation} animate = {controls} transition = {{duration:1}} className = {`${styles.item}`}>
-      <Image className = {styles.img}  src = {`/language/${img}`+`.png`}  width= "250" height="150" loading="lazy" alt ="item"/>
+      <img className = {styles.img}  src = {`/language/${img}`+`.png`}  width= "250" height="150" alt ="item"/>
         <div className = {styles.title}>{title}</div>
         <div className = {styles.level}>{level}</div>
     </motion.div>
